@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
 </head>
@@ -15,43 +16,45 @@
             <li><a href="#">header link three</a></li>
         </ul>
     </header>
-    <main>
-        <div>
+    <main class="flex-container">
+        <div class="flex-container">
             <h1>This website is awesome</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor fugiat quae ea ex quisquam eos esse vero natus dignissimos ad</p>
             <button>Sign up</button>
         </div>
-        <img src="" alt="">
+        <img src="imgs/main.jpg" alt="">
     </main>
-    <section>
+    <section class="courses">
         <p>Some random information</p>
-        <div>
-            <img src="" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="flex-container">
+            <div>
+                <img src="imgs/01.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <img src="imgs/02.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <img src="imgs/03.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <img src="imgs/04.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
         </div>
     </section>
-    <section>
+    <section class="quote">
         <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, minus dolor corrupti ipsa ut error ipsum quia inventore voluptatem eaque aperiam non voluptate rem repudiandae veritatis molestiae accusantium, in dignissimos?</blockquote>
         <span>-Thor, Thunder Guy</span>
     </section>
-    <section>
+    <section class="flex-container sign-up">
         <div>
             <h2>Call to action! it's time</h2>
             <p>Sign up for our product by clicking that button right over there!</p>
-            <button>Sign up</button>
         </div>
+        <button>Sign up</button>
     </section>
     <footer>
         <p>Copyright &copy; Mahmoud Elhakim 2024</p>
